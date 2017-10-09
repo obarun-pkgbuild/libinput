@@ -4,7 +4,7 @@
 # 						Maintainer: Jan de Groot
 
 pkgname=libinput
-pkgver=1.8.2
+pkgver=1.8.3
 pkgrel=2
 pkgdesc="Input device management and event handling library"
 arch=(x86_64)
@@ -15,7 +15,7 @@ makedepends=('doxygen' 'graphviz' 'gtk3' 'meson')
 optdepends=('gtk3: libinput debug-gui')
 provides=("libinput=${pkgver}")
 source=(https://freedesktop.org/software/${pkgname}/${pkgname}-$pkgver.tar.xz)
-sha512sums=('555a7680cc8aaf62c5370a865f3aff0a933d42d94a3d8861c072666b02c9e1be45ea39de9a749a9575cdfb613b6150e412e18559d94d4919f21ca4680a3c76a7')
+sha512sums=('88006d217e3507858fa6b9ac1f25c267255fb51d1bcf1208d2afd423bf2a9292944bc5526ea91f27fad3ff04c2f9f43ab3aa25fd9fb7ace1231ecd33ddf18de6')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
 
 prepare() {
